@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Jet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="./css/normalize.css"> 
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;600;700&family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Start Up Button -->
+    <span class="up show">Up</span>
+    <!-- End Up Button -->
+
+    <!-- Start Settings -->
+    <div class="settings">
+        <div class="toggle-settings">
+            <i class="fas fa-cog"></i>        
+        </div>
+        <div class="settings-content">
+            <div class="options">
+                <h4>Colors</h4>
+                <ul class="colors-list">
+                    <li class="active" data-color="#40f2a6"></li>
+                    <li data-color="#0075ff"></li>
+                    <li data-color="#4caf50"></li>
+                    <li data-color="#e91e63"></li>
+                    <li data-color="#03a9f4"></li>
+                </ul>
+            </div>
+            <div class="options">
+                <h4>Random BG</h4>
+                <div class="random-bg">
+                    <span class="yes active" data-bg="yes">Yes</span>
+                    <span class="no" data-bg="no">No</span>
+                </div>
+            </div>
+            <div class="options">
+                <h4>Show Bullets</h4>
+                <div class="bullets-option">
+                    <span class="yes active" data-display="yes">Yes</span>
+                    <span class="no" data-display="no">No</span>
+                </div>
+            </div>
+            <button class="reset-option">Reset Options</button>
+        </div>
+    </div>
+    <!-- End Settings -->
+
+    <!-- Start Nav Bullets -->
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".about">
+            <div class="tooltip">About Us</div>
+        </div>
+        <div class="bullet" data-section=".team">
+            <div class="tooltip">Our Team</div>
+        </div>
+        <div class="bullet" data-section=".gallary">
+            <div class="tooltip">Our Galary</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="tooltip">Timeline</div>
+        </div>
+        <div class="bullet" data-section=".features">
+            <div class="tooltip">Features</div>
+        </div>
+        <div class="bullet" data-section=".testimonials">
+            <div class="tooltip">Reviews</div>
+        </div>
+        <div class="bullet" data-section=".contact">
+            <div class="tooltip">Contact Us</div>
+        </div>
+    </div>
+    <!-- End Nav Bullets -->
+
+    <!-- Start Landing Page -->
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="header">
+                <div class="logo">Open <span>Jet</span></div>
+                <div class="links-container">
+                    <ul class="links">
+                        <li><a href="#" data-section=".about">About</a></li>
+                        <li><a href="#" data-section=".team">Team</a></li>
+                        <li><a href="#" data-section=".gallary">Gallery</a></li>
+                        <li><a href="#" data-section=".timeline">Timeline</a></li>
+                        <li><a href="#" data-section=".features">Features</a></li>
+                        <li><a href="#" data-section=".testimonials">Reviews</a></li>
+                        <li><a href="#" data-section=".contact">Contact</a></li>
+                    </ul>
+                    <button class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="intro">
+            <h1>We Are <span>Real Estate</span> Company</h1>
+            <p>We are a real estate company. We offer a selection of new condos with convenient locations.</p>
+            <a href="#contact"><input type="submit" value="Let's Talk !"></a>
+            <div class="social-icons">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+                <a href=""><i class="fab fa-whatsapp"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- End Landing Page -->
+
+    <!-- Start About -->
+    <div class="container">
+        <div class="about">
+            <div class="info-box">
+                <h2>About Us</h2>
+                <p>We are a real estate company. We offer a selection of new condos with convenient locations. Our target audience is parents. We want to convey a sense of excitement, while at the same time being inexpensive.</p>
+            </div>
+            <div class="image-box">
+                <img src="./images/about2.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Start Team  -->
+    <div class="team">
+        <div class="container">
+            <h2>OUR Team</h2>
+            <div class="ts-content">
+                <div class="ts-box">
+                    <div class="person-info">
+                        <img src="./images/team-1.jpg" alt="">
+                        <h4>Eng. Mamdouh Nour</h4>
+                        <p>CEO & Founder</p>
+                        <div class="Skills">
+                            <div class="container">
+                                <h2>My Skills</h2>
+                                <div class="skill-box">
+                                    <div class="skill-name">Leadership</div>
+                                    <div class="skill-prog">
+                                        <span data-progress="80%"></span>
+                                    </div>
+                                </div>
+                                <div class="skill-box">
+                                    <div class="skill-name">Discussing</div>
+                                    <div class="skill-prog">
+                                        <span data-progress="60%"></span>
+                                    </div>
+                                </div>
+                                <div class="skill-box">
+                                    <div class="skill-name">Engineering</div>
+                                    <div class="skill-prog">
+                                        <span data-progress="75%"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-icons">
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                            <a href=""><i class="fab fa-whatsapp"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <div class="person-info">
+                        <img src="./images/team-2.jpg" alt="">
+                        <h4>Nehal Abdou</h4>
+                        <p>Marketing Manager</p>
+                        <div class="Skills">
+                            <div class="container">
+                                <h2>My Skills</h2>
+                                <div class="skill-box">
+                                    <div class="skill-name">Marketing</div>
+                                    <div class="skill-prog">
+                                        <span data-progress="80%"></span>
+                                    </div>
+                                </div>
+                                <div class="skill-box">
+                                    <div class="skill-name">Leadership</div>
+                                    <div class="skill-prog">
+                                        <span data-progress="60%"></span>
+                                    </div>
+                                </div>
+                                <div class="skill-box">
+                                    <div class="skill-name">Planning</div>
+                                    <div class="skill-prog">
+                                        <span data-progress="75%"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-icons">
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                            <a href=""><i class="fab fa-whatsapp"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <div class="person-info">
+                        <img src="./images/team-3.jpg" alt="">
+                        <h4>Mari Mark</h4>
+                        <p>HR Manager</p>
+                        <div class="Skills">
+                            <div class="container">
+                                <h2>My Skills</h2>
+                                <div class="skill-box">
+                                    <div class="skill-name">communications</div>
+                                    <div class="skill-prog">
+                                        <span data-progress="80%"></span>
+                                    </div>
+                                </div>
+                                <div class="skill-box">
+                                    <div class="skill-name">Time Managment</div>
+                                    <div class="skill-prog">
+                                        <span data-progress="60%"></span>
+                                    </div>
+                                </div>
+                                <div class="skill-box">
+                                    <div class="skill-name">Jopd Ratings</div>
+                                    <div class="skill-prog">
+                                        <span data-progress="75%"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-icons">
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                            <a href=""><i class="fab fa-whatsapp"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <div class="person-info">
+                        <img src="./images/team-4.jpg" alt="">
+                        <h4>Samir Ghalli</h4>
+                        <p>IT Speacialest</p>
+                        <div class="Skills">
+                            <div class="container">
+                                <h2>My Skills</h2>
+                                <div class="skill-box">
+                                    <div class="skill-name">Microsoft Office</div>
+                                    <div class="skill-prog">
+                                        <span data-progress="80%"></span>
+                                    </div>
+                                </div>
+                                <div class="skill-box">
+                                    <div class="skill-name">CCNA R&S</div>
+                                    <div class="skill-prog">
+                                        <span data-progress="60%"></span>
+                                    </div>
+                                </div>
+                                <div class="skill-box">
+                                    <div class="skill-name">MCSA</div>
+                                    <div class="skill-prog">
+                                        <span data-progress="75%"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-icons">
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                            <a href=""><i class="fab fa-whatsapp"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <div class="person-info">
+                        <img src="./images/team-5.jpg" alt="">
+                        <h4>Fadi Hassan</h4>
+                        <p>Sales Manager</p>
+                        <div class="Skills">
+                            <div class="container">
+                                <h2>My Skills</h2>
+                                <div class="skill-box">
+                                    <div class="skill-name">Negotiation</div>
+                                    <div class="skill-prog">
+                                        <span data-progress="80%"></span>
+                                    </div>
+                                </div>
+                                <div class="skill-box">
+                                    <div class="skill-name">Accounting</div>
+                                    <div class="skill-prog">
+                                        <span data-progress="60%"></span>
+                                    </div>
+                                </div>
+                                <div class="skill-box">
+                                    <div class="skill-name">Communications</div>
+                                    <div class="skill-prog">
+                                        <span data-progress="75%"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-icons">
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                            <a href=""><i class="fab fa-whatsapp"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <div class="person-info">
+                        <img src="./images/team-6.jpg" alt="">
+                        <h4>Manar Hisham</h4>
+                        <p>Social Media Specialest</p>
+                        <div class="Skills">
+                            <div class="container">
+                                <h2>My Skills</h2>
+                                <div class="skill-box">
+                                    <div class="skill-name">SEO</div>
+                                    <div class="skill-prog">
+                                        <span data-progress="80%"></span>
+                                    </div>
+                                </div>
+                                <div class="skill-box">
+                                    <div class="skill-name">Copy Writting</div>
+                                    <div class="skill-prog">
+                                        <span data-progress="60%"></span>
+                                    </div>
+                                </div>
+                                <div class="skill-box">
+                                    <div class="skill-name">Graphic Design</div>
+                                    <div class="skill-prog">
+                                        <span data-progress="75%"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-icons">
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                            <a href=""><i class="fab fa-whatsapp"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!-- End Team  -->
+
+    <!-- start Gallary -->
+    <div class="gallary">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="gallary-box">
+                <img src="./images/g-1.jpg" alt="Image One">
+                <img src="./images/g-2.jpg" alt="Image Two">
+                <img src="./images/g-3.jpg" alt="Image Three">
+                <img src="./images/g-4.jpg" alt="Image Four">
+                <img src="./images/g-5.jpg" alt="Image Five">
+                <img src="./images/g-6.jpg" alt="Image Six">
+                <img src="./images/g-7.jpg" alt="Image Seven">
+                <img src="./images/g-8.jpg" alt="Image Eight">
+                <img src="./images/g-9.jpg" alt="Image Nine">
+                <img src="./images/g-10.jpg" alt="Image Ten">
+            </div>
+        </div>
+    </div>
+    <!-- End Gallary -->
+
+    <!-- Start Timeline -->
+    <div class="timeline">
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2022</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Alexandria Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quibusdam porro, dolores laborum ea nemo itaque eveniet? Saepe, illo inventore explicabo ullam impedit modi ex illum esse totam, sint ea!</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Al-Haram Companies</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quibusdam porro, dolores laborum ea nemo itaque eveniet? Saepe, illo inventore explicabo ullam impedit modi ex illum esse totam, sint ea!</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="year">2019</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Mall of Ciza</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quibusdam porro, dolores laborum ea nemo itaque eveniet? Saepe, illo inventore explicabo ullam impedit modi ex illum esse totam, sint ea!</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Power Hotil</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quibusdam porro, dolores laborum ea nemo itaque eveniet? Saepe, illo inventore explicabo ullam impedit modi ex illum esse totam, sint ea!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Timeline -->
+
+    <!-- Start Features -->
+    <div class="features">
+        <h2>Our Features</h2>
+        <div class="container">
+            <div class="feat-box">
+                <!-- <img src="./images/" alt=""> -->
+                <i class="fas fa-door-open"></i>
+                <h4>Renting Houses</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quam adipisci! Laboriosam ex placeat distinctio.</p>
+            </div>
+            <div class="feat-box">
+                <!-- <img src="./images/" alt=""> -->
+                <i class="fas fa-house-user"></i>
+                <h4>Owning Houses</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quam adipisci! Laboriosam ex placeat distinctio.</p>
+            </div>
+            <div class="feat-box">
+                <!-- <img src="./images/" alt=""> -->
+                <i class="fas fa-hotel"></i>
+                <h4>Hotel Reservations</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quam adipisci! Laboriosam ex placeat distinctio.</p>
+            </div>
+            <div class="feat-box">
+                <!-- <img src="./images/" alt=""> -->
+                <i class="fas fa-home"></i>
+                <h4>Houses Finishing</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quam adipisci! Laboriosam ex placeat distinctio.</p>
+            </div>
+            <div class="feat-box">
+                <!-- <img src="./images/" alt=""> -->
+                <i class="fas fa-chart-line"></i>
+                <h4>Improve Quality</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quam adipisci! Laboriosam ex placeat distinctio.</p>
+            </div>
+            <div class="feat-box">
+                <!-- <img src="./images/" alt=""> -->
+                <i class="fas fa-file-signature"></i>
+                <h4>Notarized Contracts</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quam adipisci! Laboriosam ex placeat distinctio.</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!-- End Features -->
+
+    <!-- Start Testimonials -->
+    <div class="testimonials">
+        <div class="container">
+            <h2>Clients Reviews</h2>
+            <div class="ts-content">
+                <div class="ts-box">
+                    <p>" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae ut, enim repellendus soluta quaerat voluptates. "</p>
+                    <div class="person-info">
+                        <img src="./images/ts-1.jpg" alt="">
+                        <h4>Sara Fadl</h4>
+                        <p>CEO AT Cargo Platform</p>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <p>" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae ut, enim repellendus soluta quaerat voluptates. "</p>
+                    <div class="person-info">
+                        <img src="./images/ts-2.jpg" alt="">
+                        <h4>Cargo Company</h4>
+                        <p>Structural Engineer</p>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <p>" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae ut, enim repellendus soluta quaerat voluptates. "</p>
+                    <div class="person-info">
+                        <img src="./images/ts-3.jpg" alt="">
+                        <h4>CEOS & Founders</h4>
+                        <p>LCO Organization</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!-- End Testimonials -->
+
+    <!-- Start Contact -->
+    <div class="contact" id="contact">
+        <div class="overlay">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form action="">
+                    <div class="left">
+                        <input type="text" placeholder="Your Name" name="username">
+                        <input type="text" placeholder="Your Phone" name="phone">
+                        <input type="email" placeholder="Your Email" name="email">
+                        <input type="text" placeholder="Your Subject" name="subject">
+                    </div>
+                    <div class="right">
+                        <textarea name="message" placeholder="Your Message"></textarea>
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact -->
+
+    <!-- Start Footer  -->
+    <div class="footer">ALL RIGHTS RESERVED TO AHMED.FAIOMY</div>
+    <!-- End Footer  -->
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
